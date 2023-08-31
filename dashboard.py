@@ -23,8 +23,8 @@ def main():
                  to all applicants with respect to these variables.", unsafe_allow_html=True)
     
     # Logo
-    logo = load_logo()
-    st.sidebar.image(logo, width=300)
+    #logo = load_logo()
+    #st.sidebar.image(logo, width=300)
     
     # Affichage d'informations dans la sidebar
     st.sidebar.subheader("General information")
@@ -116,11 +116,11 @@ def main():
                 data = load_data(col)
                 plot_hist(data, client_info[col], title=title, xlabel=xlabel, divisor=divisor)
 
-@st.cache_data()
-def load_logo(folder='img', filename='logo', ext='png'):
-    path = './' + folder + '/' + filename + '.' + ext
-    logo = Image.open(path) 
-    return logo
+#@st.cache_data()
+#def load_logo(folder='img', filename='logo', ext='png'):
+#    path = './' + folder + '/' + filename + '.' + ext
+#    logo = Image.open(path) 
+#    return logo
 
 @st.cache_data()
 def plot_hist(data, client_value, title, xlabel, ylabel='count', divisor=1):
