@@ -4,15 +4,14 @@
 ## Goal(s)
 
 - conceiving, raining and testing a model, which predicts, wheter a given loan applicant will be able to repay (on time) all loan installments or not;
-- deploying a <a href="https://bankscoring.streamlit.app/">web application</a> (<a href="https://bankscoring.streamlit.app/">Default risk calculator</a>), which implements such model;
+- deploying a <a href="https://mfcge6zguzva258dmlagch.streamlit.app/">web application</a> (<a href="https://mfcge6zguzva258dmlagch.streamlit.app/">Default risk calculator</a>), which implements such model;
 
 ## Main output(s)
 
-- a Jupyter <a href="https://github.com/biancof/oc_bank_scoring/blob/main/notebook_modelization.ipynb">Notebook</a> of data cleaning, exploration and modelization;
-- an HTML <a href="https://github.com/biancof/oc_bank_scoring/blob/main/data_drift_report.html">data drift report</a>;
-- an <a href="https://biancof.pythonanywhere.com/">Application Programming Interface</a> (API);
-- a <a href="https://github.com/biancof/oc_bank_scoring/blob/main/test_api.py">unit test script</a>;
-- an <a href="https://bankscoring.streamlit.app/">interactive dashboard</a>;
+- a Jupyter <a href="https://github.com/CHAACHOUA/OCR7/blob/main/notebook_modelization.ipynb">Notebook</a> of data cleaning, exploration and modelization;
+- an HTML <a href="https://github.com/CHAACHOUA/OCR7/blob/main/data_drift_report.html">data drift report</a>;
+- an <a href="http://aminech.pythonanywhere.com/">Application Programming Interface</a> (API);
+- an <a href="https://mfcge6zguzva258dmlagch.streamlit.app/">interactive dashboard</a>;
 
 ## Repository branches
 
